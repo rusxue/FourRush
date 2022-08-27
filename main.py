@@ -311,7 +311,7 @@ while True:  # 主程序
         elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 3:  # 右键取消选定
             move = 0
 
-    screen.fill(color)  # 填充颜色(设置为0，执不执行这行代码都一样)
+    screen.fill(color) 
     Render_zsz()
     Render_so(p_before)
     if win_able:
